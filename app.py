@@ -31,7 +31,7 @@ st.write("")
 col1, col2, col3 = st.columns([1,2,1])
 with col2:
     if st.button("Generate New"):
-        st.switch_page("2_New_Campaign")
+        st.switch_page("New_Campaign")
     st.write("")
     if st.button("Track Old"):
-        st.switch_page("1_Insights")
+        st.switch_page("Insights")
